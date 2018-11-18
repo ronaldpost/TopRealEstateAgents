@@ -1,0 +1,20 @@
+﻿@page "{filter?}"
+@model TopRealEstateAgents.Pages.TopTenModel
+@{
+    ViewData["Title"] = "TopTen";
+}
+
+<h2>TopTen</h2>
+
+<table class="table">
+    <tbody>
+        @foreach (var agent in Model.RealEstateAgents)
+        {
+            <tr>
+                <td>@agent.Id</td>
+                <td>@agent.Name</td>
+                <td>@agent.NumberOfObjects</td>
+            </tr>
+        }
+    </tbody>
+</table>
