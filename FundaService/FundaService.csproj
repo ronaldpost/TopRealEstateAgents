@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+	<UserSecretsId>aspnet-ARStudio-B320EE7E-4061-41F0-96C3-ACEF88242D28</UserSecretsId>
   </PropertyGroup>
+  
 
 </Project>
